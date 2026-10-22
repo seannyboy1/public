@@ -1,0 +1,15 @@
+# Keys and passwords never go to GitHub
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Junk
+.DS_Store
+__pycache__/
+*.pyc
+node_modules/
+.venv/
+dist/
+coverage/
